@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    border: border-box;
+    color: #C9AA49;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-left {
+    padding-left: 20px;
+}
+
+.nav-right {
+    padding-right: 20px;
+} 
+
+.nav-right i {
+    padding-left: 10px;
+}
+
+.letsdance {
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.one-right {
+    width: 50px;
+    padding-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    font-size: 60px;
+    z-index: 1;
+}
+
+.one-right span {
+    font-size: 25px;
+}
+
+.para-btmleft {
+    width: 300px;
+    padding-left: 20px;
+    position: absolute;
+    z-index: 1;
+    bottom: 50px;
+}
+
+.btm-button {
+    margin-top: 20px;
+    font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: rgb(2, 2, 2);
+    font-style: italic;
+    border: none;
+    background-color: #C9AA49;
+    display: flex;
+    align-items: center;
+}
+
+.btm-button i {
+    color: rgb(2, 2, 2);
+    padding-left: 10px;
+}
+
+.btm-right {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 2;
+}
+
+.change-dance {
+    position: absolute;
+    z-index: 1;
+    left: 510px;
+    bottom: 100px;
+}
+
+.spline {
+    position: relative;
+    top: 0;
+}
